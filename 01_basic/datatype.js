@@ -6,3 +6,6 @@ let number=5
 let accountId;
 console.log(typeof undefined); //undefind
 console.log(typeof null); //object
+
+let myDate= new Date()
+    console.log(myDate.toDateString());
